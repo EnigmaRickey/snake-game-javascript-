@@ -1,0 +1,64 @@
+*{  font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: linear-gradient(rgb(2, 2, 31), rgb(49, 49, 63), rgb(2, 2, 31));
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-weight: 700;
+    color: rgb(197, 188, 188);
+
+}
+#board{
+    
+    height: 85vh;
+    width: 45vw;
+    border-style: solid;
+    border-color:rgb(197, 188, 188);;
+    border-width: 5px;
+    display: grid;
+    grid-template-rows: repeat(25 , 1fr);
+    grid-template-columns: repeat(25 , 1fr);
+}    
+.head{
+    background: radial-gradient(black, rgb(255, 255, 54) ,rgb(79, 253, 36) ,rgb(31, 253, 242) , rgb(46, 46, 253));
+    filter:blur(3px);
+    
+}
+.snakeBody{
+    background: radial-gradient(white, rgb(255, 255, 54) ,rgb(79, 253, 36) ,rgb(31, 253, 242) , rgb(46, 46, 253));
+    filter:blur(3px);
+
+}
+.food{
+    background-color: rgba(255, 0, 0, 0.664);
+    border-radius: 20px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scores{
+    display: flex;
+    background: linear-gradient(rgb(2, 2, 31), rgb(4, 4, 65), rgb(11, 34, 83), rgb(13, 39, 97));
+    height: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 800;
+    color: aquamarine;
+}
+h2{
+    font-size: larger;
+    font-weight: 800;
+    color: aquamarine;
+    
+}
